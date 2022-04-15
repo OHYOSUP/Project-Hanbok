@@ -1,0 +1,54 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+@mixin flex-center($justify, $align) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root{
+  --color-1: #012C29;
+  --color-2: #A3161D;
+  --color-3: #DED7CF;
+  --color-4: #B39478;
+  --color-5: #B5E7F7;
+}
+
+#root{
+  width: 100vw;
+  height: 200vh;
+
+  &>div:nth-child(1){
+    width: 100vw;
+    height: 50vh;
+
+    @include flex-center(center, center);
+    
+    &>div:nth-child(1){
+      width: 40vw;
+      height: 20vh;
+      @include flex-center(center, center);
+      border: 1px solid salmon;
+    }
+  }
+  &>div:nth-child(2){
+    width: 100vw;
+    height: 50vh;
+
+    background-color: #c4c4c4;
+    @include flex-center(center, center);
+    flex-direction: column;
+  }
+
+  &>div:nth-child(3){
+    width: 100vw;
+    height: 30vh;
+    background-color: var(--color-2);
+  }
+  &>div:nth-child(4){
+    width: 100vw;
+    height: 70vh;
+    background-image: url(상의원2.png);
+    
+  }
+}

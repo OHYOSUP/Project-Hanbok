@@ -1,0 +1,32 @@
+*{margin: 0; padding: 0;}
+
+#root{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-around;
+  
+  &>div{
+    width: 33vw;
+    height: 100vh;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &>div:nth-child(1){
+    background-image: url(traditional.png);
+    background-size: cover;
+  }
+  &>div:nth-child(2){
+    background-image: url(newwave.png);
+    background-size: cover;
+  }
+  &>div:nth-child(3){
+    background-image: url(legacy.png);
+    background-size: 30rem;
+  }
+}

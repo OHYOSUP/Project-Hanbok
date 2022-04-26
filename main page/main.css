@@ -20,12 +20,15 @@
 #root > div:nth-child(1) {
   background-image: url(traditional.png);
   background-size: cover;
+  opacity: 50%;
 }
 #root > div:nth-child(2) {
   background-image: url(newwave.png);
   background-size: cover;
+  opacity: 50%;
 }
 #root > div:nth-child(3) {
   background-image: url(legacy.png);
-  background-size: 30rem;
+  background-size: 40rem;
+  opacity: 50%;
 }/*# sourceMappingURL=main.css.map */

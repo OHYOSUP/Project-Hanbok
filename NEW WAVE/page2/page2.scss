@@ -1,0 +1,199 @@
+*{margin: 0; padding: 0;}
+
+#root{
+  width: 210vw;
+  height: 100vh;
+  background-color: #999;
+
+  &>div:nth-child(1){
+    width: 100vw;
+    height: 10vh;
+    // border: 1px solid red;
+    &>div:nth-child(1){
+      width: 10vw;
+      height: 10vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &>div:nth-child(1){
+        width: 2vw;
+        height: 2vw;
+        background-color: #c4c4c4;
+      }
+    }
+  }
+// nav
+
+  &>div:nth-child(2){
+    width: 210vw;
+    height: 90vh;
+
+    display: flex;
+    &>div:nth-child(1){
+      width: 210vw;
+      height: 90vh;
+      background-color: #777;
+      &>div{
+        width: 33vw;
+        height: 90vh;
+      }
+    }
+  }
+
+  // background
+        &>div:nth-child(3){
+        width: 10vw;
+        height: 90vh;
+        background-color: #c4c4c4;
+        position: absolute;
+        left: 35vw;
+        &>h1{
+          writing-mode: vertical-lr;
+        }
+        &>p{
+          width: 2vw;
+          height: 30vh;
+          writing-mode: vertical-lr;
+          margin-left: 10px;
+        }
+      }
+
+      // &>div:nth-child(4){
+      //   width: 10vw;
+      //   height: 90vh;
+      //   background-color: #c4c4c4;
+      //   position: absolute;
+      //   left: 70vw;
+      //   &>h1{
+      //     writing-mode: vertical-lr;
+      //   }
+      //   &>p{
+      //     width: 2vw;
+      //     height: 30vh;
+      //     writing-mode: vertical-lr;
+      //     margin-left: 10px;
+      //   }
+      // }
+      // &>div:nth-child(5){
+      //   width: 10vw;
+      //   height: 90vh;
+      //   background-color: #c4c4c4;
+      //   position: absolute;
+      //   left: 60vw;
+  
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      //   &>h1{
+      //     writing-mode: vertical-lr;
+      //   }
+      //   &>p{
+      //     width: 2vw;
+      //     height: 35vh;
+      //     writing-mode: vertical-lr;
+      //     margin-left: 10px;
+      //   }
+      // }
+      // &>div:nth-child(6){
+      //   width: 10vw;
+      //   height: 90vh;
+      //   background-color: #c4c4c4;
+      //   position: absolute;
+      //   left: 95vw;
+  
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      //   &>h1{
+      //     writing-mode: vertical-lr;
+      //   }
+      //   &>p{
+      //     width: 2vw;
+      //     height: 18vh;
+      //     writing-mode: vertical-lr;
+      //     margin-left: 10px;
+      //   }
+      // }
+      // &>div:nth-child(7){
+      //   width: 10vw;
+      //   height: 90vh;
+      //   background-color: #c4c4c4;
+      //   position: absolute;
+      //   left: 130vw;
+  
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      //   &>h1{
+      //     writing-mode: vertical-lr;
+      //   }
+      //   &>p{
+      //     width: 2vw;
+      //     height: 18vh;
+      //     writing-mode: vertical-lr;
+      //     margin-left: 10px;
+      //   }
+      // }
+      // &>div:nth-child(8){
+      //   width: 10vw;
+      //   height: 90vh;
+      //   background-color: #c4c4c4;
+      //   position: absolute;
+      //   left: 130vw;
+  
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      //   &>h1{
+      //     writing-mode: vertical-lr;
+      //   }
+      //   &>p{
+      //     width: 2vw;
+      //     height: 18vh;
+      //     writing-mode: vertical-lr;
+      //     margin-left: 10px;
+      //   }
+      // }
+      // &>div:nth-child(9){
+      //   width: 10vw;
+      //   height: 90vh;
+      //   background-color: #c4c4c4;
+      //   position: absolute;
+      //   left: 170vw;
+  
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      //   &>h1{
+      //     writing-mode: vertical-lr;
+      //   }
+      //   &>p{
+      //     width: 2vw;
+      //     height: 18vh;
+      //     writing-mode: vertical-lr;
+      //     margin-left: 10px;
+      //   }
+      // }
+      // &>div:nth-child(10){
+      //   width: 10vw;
+      //   height: 90vh;
+      //   background-color: #c4c4c4;
+      //   position: absolute;
+      //   left: 210vw;
+  
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      //   &>h1{
+      //     writing-mode: vertical-lr;
+      //   }
+      //   &>p{
+      //     width: 2vw;
+      //     height: 18vh;
+      //     writing-mode: vertical-lr;
+      //     margin-left: 10px;
+      //   }
+      // }
+    }
+  

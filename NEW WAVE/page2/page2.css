@@ -43,7 +43,11 @@
   height: 90vh;
   background-color: #c4c4c4;
   position: absolute;
-  left: 35vw;
+  left: 25vw;
+  top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #root > div:nth-child(3) > h1 {
   -ms-writing-mode: tb-lr;
@@ -51,7 +55,139 @@
 }
 #root > div:nth-child(3) > p {
   width: 2vw;
-  height: 30vh;
+  height: 35vh;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  margin-left: 10px;
+}
+#root > div:nth-child(4) {
+  width: 10vw;
+  height: 90vh;
+  background-color: #c4c4c4;
+  position: absolute;
+  left: 60vw;
+  top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root > div:nth-child(4) > h1 {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+}
+#root > div:nth-child(4) > p {
+  width: 2vw;
+  height: 36vh;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  margin-left: 10px;
+}
+#root > div:nth-child(5) {
+  width: 10vw;
+  height: 90vh;
+  background-color: #c4c4c4;
+  position: absolute;
+  left: 95vw;
+  top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root > div:nth-child(5) > h1 {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+}
+#root > div:nth-child(5) > p {
+  width: 2vw;
+  height: 20vh;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  margin-left: 10px;
+}
+#root > div:nth-child(6) {
+  width: 10vw;
+  height: 90vh;
+  background-color: #c4c4c4;
+  position: absolute;
+  left: 130vw;
+  top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root > div:nth-child(6) > h1 {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+}
+#root > div:nth-child(6) > p {
+  width: 2vw;
+  height: 9vh;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  margin-left: 10px;
+}
+#root > div:nth-child(7) {
+  width: 10vw;
+  height: 90vh;
+  background-color: #c4c4c4;
+  position: absolute;
+  left: 165vw;
+  top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root > div:nth-child(7) > h1 {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+}
+#root > div:nth-child(7) > p {
+  width: 2vw;
+  height: 26vh;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  margin-left: 10px;
+}
+#root > div:nth-child(8) {
+  width: 10vw;
+  height: 90vh;
+  background-color: #c4c4c4;
+  position: absolute;
+  left: 200vw;
+  top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root > div:nth-child(8) > h1 {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+}
+#root > div:nth-child(8) > p {
+  width: 2vw;
+  height: 36vh;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  margin-left: 10px;
+}
+#root > div:nth-child(9) {
+  width: 10vw;
+  height: 90vh;
+  background-color: #c4c4c4;
+  position: absolute;
+  left: 235vw;
+  top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root > div:nth-child(9) > h1 {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+}
+#root > div:nth-child(9) > p {
+  width: 2vw;
+  height: 36vh;
   -ms-writing-mode: tb-lr;
       writing-mode: vertical-lr;
   margin-left: 10px;

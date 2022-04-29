@@ -17,19 +17,35 @@
     align-items: center;
   }
 
-  &>div:nth-child(1){
+  #container{
     background-image: url(traditional.png);
     background-size: cover;
     opacity: 50%;
+    color: rgb(207, 207, 207);
+    z-index: 1;
+    
+    &>div:nth-child(1){
+      background-image: url(traditional.png);
+      background-size: cover;
+      opacity: 50%;
+      color: rgb(207, 207, 207);
+
+      position: absolute;
+      z-index: 1;
+    }
   }
   &>div:nth-child(2){
     background-image: url(newwave.png);
     background-size: cover;
     opacity: 50%;
+    color: rgb(207, 207, 207);
+    // font-size: 7px;
   }
   &>div:nth-child(3){
     background-image: url(legacy.png);
     background-size: 40rem;
     opacity: 50%;
+    color: rgb(207, 207, 207);
+    // font-size: 7px;
   }
 }

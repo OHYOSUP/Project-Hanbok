@@ -17,18 +17,30 @@
   justify-content: center;
   align-items: center;
 }
-#root > div:nth-child(1) {
+#root #container {
   background-image: url(traditional.png);
   background-size: cover;
   opacity: 50%;
+  color: rgb(207, 207, 207);
+  z-index: 1;
+}
+#root #container > div:nth-child(1) {
+  background-image: url(traditional.png);
+  background-size: cover;
+  opacity: 50%;
+  color: rgb(207, 207, 207);
+  position: absolute;
+  z-index: 1;
 }
 #root > div:nth-child(2) {
   background-image: url(newwave.png);
   background-size: cover;
   opacity: 50%;
+  color: rgb(207, 207, 207);
 }
 #root > div:nth-child(3) {
   background-image: url(legacy.png);
   background-size: 40rem;
   opacity: 50%;
+  color: rgb(207, 207, 207);
 }/*# sourceMappingURL=main.css.map */

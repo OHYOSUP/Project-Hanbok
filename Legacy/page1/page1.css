@@ -22,7 +22,8 @@
 #root > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
   width: 2vw;
   height: 2vw;
-  background-color: #c4c4c4;
+  background-image: url(nav.png);
+  background-size: cover;
 }
 #root > div:nth-child(2) {
   width: 100vw;
@@ -35,7 +36,7 @@
   height: 855px;
   left: 637px;
   top: 250px;
-  background-color: #c4c4c4;
+  background-image: url(1.png);
 }
 #root > div:nth-child(2) > div:nth-child(2) {
   position: absolute;
@@ -43,7 +44,7 @@
   height: 754px;
   left: 956px;
   top: 1395px;
-  background-color: #c4c4c4;
+  background-image: url(2.png);
 }
 #root > div:nth-child(2) > div:nth-child(3) {
   position: absolute;
@@ -51,7 +52,7 @@
   height: 687px;
   left: 210px;
   top: 1850px;
-  background-color: #c4c4c4;
+  background-image: url(3.png);
 }
 #root > div:nth-child(2) > div:nth-child(4) {
   position: absolute;
@@ -59,7 +60,7 @@
   height: 713px;
   left: 974px;
   top: 2537px;
-  background-color: #c4c4c4;
+  background-image: url(4.png);
 }
 #root > div:nth-child(2) > div:nth-child(5) {
   position: absolute;
@@ -67,7 +68,7 @@
   height: 794px;
   left: 236px;
   top: 3511px;
-  background-color: #c4c4c4;
+  background-image: url(5.png);
 }
 #root > div:nth-child(2) > div:nth-child(6) {
   position: absolute;
@@ -75,7 +76,7 @@
   height: 751px;
   left: 560px;
   top: 4984px;
-  background-color: #c4c4c4;
+  background-image: url(6.png);
 }
 #root > div:nth-child(2) > div:nth-child(7) {
   position: absolute;
@@ -83,7 +84,7 @@
   height: 760px;
   left: 444px;
   top: 6027px;
-  background-color: #c4c4c4;
+  background-image: url(7.png);
 }
 #root > div:nth-child(2) > div:nth-child(8) {
   position: absolute;
@@ -91,7 +92,7 @@
   height: 652px;
   left: 1010px;
   top: 6153px;
-  background-color: #c4c4c4;
+  background-image: url(8.png);
 }
 #root > div:nth-child(2) > div:nth-child(9) {
   position: absolute;
@@ -99,7 +100,7 @@
   height: 535px;
   left: 344px;
   top: 7134px;
-  background-color: #c4c4c4;
+  background-image: url(9.png);
 }
 #root > div:nth-child(2) > div:nth-child(10) {
   position: absolute;
@@ -107,7 +108,7 @@
   height: 744px;
   left: 1076px;
   top: 7540px;
-  background-color: #c4c4c4;
+  background-image: url(10.png);
 }
 #root > div:nth-child(2) > div:nth-child(11) {
   position: absolute;
@@ -115,7 +116,7 @@
   height: 648px;
   left: 295px;
   top: 8132px;
-  background-color: #c4c4c4;
+  background-image: url(11.png);
 }
 #root > div:nth-child(2) > div:nth-child(12) {
   position: absolute;
@@ -123,7 +124,7 @@
   height: 709px;
   left: 841px;
   top: 8858px;
-  background-color: #c4c4c4;
+  background-image: url(12.png);
 }
 #root > div:nth-child(2) > div:nth-child(13) {
   position: absolute;
@@ -131,7 +132,7 @@
   height: 903px;
   left: 277px;
   top: 9770px;
-  background-color: #c4c4c4;
+  background-image: url(13.png);
 }
 #root > div:nth-child(2) > div:nth-child(14) {
   position: absolute;
@@ -139,5 +140,5 @@
   height: 951px;
   left: 570px;
   top: 10876px;
-  background-color: #c4c4c4;
+  background-image: url(14.png);
 }/*# sourceMappingURL=page1.css.map */

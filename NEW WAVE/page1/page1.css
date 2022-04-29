@@ -34,21 +34,111 @@
 #root > div:nth-child(2) > div:nth-child(1) {
   width: 80vw;
   height: 80vh;
-  background-color: #c4c4c4;
+  background-image: url(1.png);
+  background-size: cover;
 }
 #root > div:nth-child(3) {
   font-size: 3rem;
   position: absolute;
   top: 10vh;
   right: 8vw;
+  color: #010C6A;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 #root > div:nth-child(3) > h1 {
   margin-top: 25px;
+  color: #010C6A;
+}
+#root > div:nth-child(3) > h2 {
+  margin-top: 25px;
+  color: #010C6A;
+}
+#root > div:nth-child(3) > h3 {
+  margin-top: 25px;
+  color: #010C6A;
+}
+#root > div:nth-child(3) > h4 {
+  margin-top: 25px;
+  color: #010C6A;
 }
 #root > div:nth-child(4) {
+  font-size: 3rem;
+  position: absolute;
+  top: 10.2vh;
+  right: 8.2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#root > div:nth-child(4) > h1 {
+  margin-top: 25px;
+  color: #AC0606;
+}
+#root > div:nth-child(4) > h2 {
+  margin-top: 25px;
+  color: #AC0606;
+}
+#root > div:nth-child(4) > h3 {
+  margin-top: 25px;
+  color: #AC0606;
+}
+#root > div:nth-child(4) > h4 {
+  margin-top: 25px;
+  color: #AC0606;
+}
+#root > div:nth-child(5) {
+  font-size: 3rem;
+  position: absolute;
+  top: 9.8vh;
+  right: 7.8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#root > div:nth-child(5) > h1 {
+  margin-top: 25px;
+  color: #FF00B8;
+}
+#root > div:nth-child(5) > h2 {
+  margin-top: 25px;
+  color: #FF00B8;
+}
+#root > div:nth-child(5) > h3 {
+  margin-top: 25px;
+  color: #FF00B8;
+}
+#root > div:nth-child(5) > h4 {
+  margin-top: 25px;
+  color: #FF00B8;
+}
+#root > div:nth-child(6) {
+  font-size: 3rem;
+  position: absolute;
+  top: 10.2vh;
+  right: 7.6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#root > div:nth-child(6) > h1 {
+  margin-top: 25px;
+  color: #fff;
+}
+#root > div:nth-child(6) > h2 {
+  margin-top: 25px;
+  color: #fff;
+}
+#root > div:nth-child(6) > h3 {
+  margin-top: 25px;
+  color: #fff;
+}
+#root > div:nth-child(6) > h4 {
+  margin-top: 25px;
+  color: #fff;
+}
+#root > div:nth-child(7) {
   width: 5vw;
   height: 5vw;
   border-radius: 50%;

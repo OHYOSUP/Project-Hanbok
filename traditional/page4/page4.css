@@ -11,7 +11,6 @@
 #root > div:nth-child(1) {
   width: 100vw;
   height: 10vh;
-  border: 1px solid red;
 }
 #root > div:nth-child(1) > div:nth-child(1) {
   width: 10vw;
@@ -42,17 +41,20 @@
 #root > div:nth-child(2) > div:nth-child(2) {
   width: 20vw;
   height: 40vh;
-  background-color: #c4c4c4;
+  background-image: url(1.png);
+  background-size: 25rem;
 }
 #root > div:nth-child(2) > div:nth-child(3) {
   width: 25vw;
   height: 55vh;
-  background-color: #c4c4c4;
+  background-image: url(2.png);
+  background-size: cover;
 }
 #root > div:nth-child(2) > div:nth-child(4) {
   width: 20vw;
   height: 40vh;
-  background-color: #c4c4c4;
+  background-image: url(3.png);
+  background-size: cover;
 }
 #root > div:nth-child(2) > div:nth-child(5) {
   width: 4vw;
